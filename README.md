@@ -5,8 +5,8 @@ Project is structure using the Access, Assess and Address data structure
 3. Extra feature for modelling: POI calculated on the fly for each test data lat/lon using OSM API
 
 To use code
-1.Update databaseconfig file with your own environment file, detailing passwords etc. for logging into your database 
-2.Run ADS_Assesment_toRUn.ipynb updating the variables of interest (note that the Access only needs be run once in order to load the SQL database)
+1. Update databaseconfig file with your own environment file, detailing passwords etc. for logging into your database 
+2. Run ADS_Assesment_toRUn.ipynb updating the variables of interest (note that the Access only needs be run once in order to load the SQL database)
 
 Shortcomings of the project: 
 1. Pulling the Points of Interest takes a long time (~5 minutes per lat/lon) - these are cached when run locally which then speeds up future runs 
